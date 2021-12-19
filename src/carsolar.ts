@@ -1,6 +1,6 @@
 import { Racer } from "./carracer";
 
-export class SolarCar implements Racer {
+class SolarCar implements Racer {
     team: string;
     speed: number = 0;
 
